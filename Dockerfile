@@ -1,0 +1,6 @@
+From mongo:latest
+
+ENV MONGO_INITDB_ROOT_USERNAME = 'lappis'
+ENV MONGO_INITDB_ROOT_PASSWORD = 'lappis'
+
+EXPOSE 27017
