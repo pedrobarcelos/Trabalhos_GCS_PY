@@ -1,6 +1,10 @@
-From mongo:latest
+FROM python:3.9
 
-ENV MONGO_INITDB_ROOT_USERNAME = 'lappis'
-ENV MONGO_INITDB_ROOT_PASSWORD = 'lappis'
+WORKDIR /app
 
-EXPOSE 27017
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY . .
+
+CMD ["python", "src/main.py"]

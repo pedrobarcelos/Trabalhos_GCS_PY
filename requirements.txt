@@ -9,7 +9,7 @@ cycler==0.11.0
 entrypoints==0.4
 exceptiongroup==1.1.0
 fonttools==4.38.0
-gensim==3.8.3
+numpy==1.24.1
 idna==3.4
 importlib-resources==5.10.2
 iniconfig==1.1.1
@@ -19,7 +19,6 @@ jsonschema==4.17.3
 kiwisolver==1.4.4
 MarkupSafe==2.1.1
 matplotlib==3.6.2
-numpy==1.24.1
 packaging==22.0
 pandas==1.5.2
 Pillow==9.4.0
@@ -45,3 +44,4 @@ tqdm==4.64.1
 urllib3==1.26.13
 whatlies==0.7.0
 zipp==3.11.0
+gensim==3.8.3
