@@ -7,6 +7,8 @@ from parser.model_parser import ModelParser
 if __name__ != "__main__":
     exit()   
 
+## teste
+
 def get_config():
     initialParser = YAMLParser
     featureEngineringParser = FeatureEngineeringParser
