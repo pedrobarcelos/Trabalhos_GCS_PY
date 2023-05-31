@@ -3,7 +3,7 @@ name: CI
 on:
   push:
     branches:
-      - main  # substitua 'main' pelo nome da sua branch principal
+      - main
 
 jobs:
   build:
